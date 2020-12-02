@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   relayer:
-    image: docker.pkg.github.com/hovoh/relay3r-jobs/node:actions
+    image: docker.pkg.github.com/relay3r-network/relay3r-jobs/node:new-combined
     restart: always
     volumes:
       - ".env:/relayer/.env"
